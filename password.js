@@ -6,10 +6,10 @@ function createPassWord(passWord) {
   let passWordSplit = passWord.split('')
   console.log(passWordSplit)
 
-  let passWordSpecial = ['@', '#', '%']
+  let passWordSpecial = ['@', '#', '%', '$', '%', '^', '&', '&', '*', '(', ')']
   for (let i = 0; i < passWordSpecial.length; i++){
-    if(passWordSpecial[i].includes !== true) {
-      console.log('Sorry, please include special characters in your password')
+    if(passWordSpecial[i].includes === true) {
+      //console.log('Sorry, please include special characters in your password')
       break
     }
   }
@@ -18,10 +18,10 @@ function createPassWord(passWord) {
     console.log(`Sorry please type a password that is 10 characters long`)
   //} else if(passWordSplit.includes('@') !== true) {
     //console.log('Sorry, please include special characters in your password')
-  //} else {
-  //    console.log(`Your password is good to go!`)
+  } else {
+      console.log(`Your password is good to go!`)
   }
 }
 let website = welcome('Niq')
-let passwordAuthenticator = createPassWord("Whngg dkgj")
+let passwordAuthenticator = createPassWord("Whngg() dkgj")
 
