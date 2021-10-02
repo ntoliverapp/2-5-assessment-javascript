@@ -36,7 +36,7 @@ let gutHubDefinition = "A could based repository that allows for tracking change
 //CODE HERE
 const init = {
     description: "turns any directory into a Git repository for a new project",
-    code: "init"
+    code: "git init"
 }
 //////////////////PROBLEM 4////////////////////
 /*
@@ -47,7 +47,7 @@ const init = {
 //CODE HERE
 const clone = {
     description: "creates a copy (clone) of a repository into a new directory",
-    code: "clone"
+    code: "git clone"
 }
 //////////////////PROBLEM 5////////////////////
 /*

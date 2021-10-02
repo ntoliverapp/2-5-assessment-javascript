@@ -28,6 +28,9 @@ middleNums.push(numbers[2])
 middleNums.push(numbers[3])
 console.log(middleNums)
 
+//let middleNums = numbers.splice(1, 3)
+//console.log(middleNums)
+
 //////////////////PROBLEM 4////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 

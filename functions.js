@@ -8,6 +8,7 @@
 //CODE HERE
 function sum(num1, num2) {
   console.log(num1 + num2)
+  return num1 + num2
 }
 sum(7, 3)
 
@@ -23,8 +24,10 @@ sum(7, 3)
 function greaterThanFive(number) {
   if(number > 5 === true) {
     console.log('true')
+    return true
   } else {
     console.log('false')
+    return false
   }
 }
 greaterThanFive(2)
@@ -45,7 +48,7 @@ function findZWords(word) {
     console.log('the name does not begin with Z')
   }
 }
-findZWords("Wesley")
+findZWords("zesley")
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
